@@ -23,7 +23,8 @@ class EpicSunfire {
 		// TODO: Change default to $classic
 		// TODO: custom handling
 		// TODO: modern_bwobei_style(TM)
-		
+	background: linear-gradient(to bottom, ,,) !important;
+
 		$miranda =	[
 						"<MAIN_TONE>" => "orange",
 						"<CONTRAST_MAIN>" => "#2980b9",
@@ -32,6 +33,12 @@ class EpicSunfire {
 						"<SND_FONT>" => "#000",
 						"<AKA_LINK>" => "#3498db",
 						"<INV_LINK>" => "#2980b9",
+						"<POSITION_TEXT>" => "#000",
+						"<POSITION_HOVER>" => "#000",
+						"<POSITION_LINK>" => "#2980b9",						
+						"<PHASE_FULL_BOT>" => "#ffb76b 0%",
+						"<PHASE_FULL_MID>" => "#ffa73d 50%",
+						"<PHASE_FULL_TOP>" => "#ff7f04 100%",
 					];		
 		$powerade =	[
 						"<MAIN_TONE>" => "#2980b9",
@@ -41,7 +48,13 @@ class EpicSunfire {
 						"<SND_FONT>" => "#eee",
 						"<AKA_LINK>" => "#eee",
 						"<INV_LINK>" => "#eee",
-					];
+						"<POSITION_TEXT>" => "#eee",
+						"<POSITION_HOVER>" => "#eee",
+						"<POSITION_LINK>" => "#2980b9",						
+						"<PHASE_FULL_BOT>" => "#7db9e8 0%",
+						"<PHASE_FULL_MID>" => "#2989d8 50%",
+						"<PHASE_FULL_TOP>" => "#1e5799 100%",						
+						];
 		$classic =	[
 						"<MAIN_TONE>" => "red"
 					];		

@@ -1466,7 +1466,7 @@ a[href="map.php?reload=1"] img {
 	line-height:19px;
 	text-align:right;
 	font-size:11px;
-	color:#eee;
+	color:<POSITION_TEXT>;
 	padding:0px 12px 0px 3px;
 	height:20px;
 	border-bottom:1px solid rgba(0,0,0,.2);
@@ -1475,16 +1475,12 @@ a[href="map.php?reload=1"] img {
 	/*text-shadow:0 2px 1px rgba(0,0,0,.2)*/
 }
 
-.positiontext {
-	color:#000
-}
-
 .positiontext a {
-	color:<CONTRAST_MAIN>;
+	color:<POSITION_LINK>;
 	text-decoration:none
 }
 .positiontext a:hover {
-	color:#000 !important;
+	color:<POSITION_HOVER> !important;
 	text-decoration:none
 }
 #test {
@@ -1537,7 +1533,7 @@ a[href="map.php?reload=1"] img {
 #fullenergydisp {
 	background-image:none !important;
 	overflow:hidden;
-	background: linear-gradient(to top, #ffb76b 0%,#ffa73d 50%,#ff7f04 100%) !important;
+	background: linear-gradient(to top, <PHASE_FULL_BOT>,<PHASE_FULL_MID>,<PHASE_FULL_TOP>) !important;
 	border:0px solid #000 !important;
 	width:100% !important;
 	height:18px !important
@@ -1545,7 +1541,7 @@ a[href="map.php?reload=1"] img {
 #curenergy {
 	background-image:none !important;
 	background: #1e5799;
-	background: linear-gradient(to bottom, #1e5799 0%,#2989d8 50%,#7db9e8 100%) !important;
+	background: linear-gradient(to top, <PHASE_FULL_BOT>,<PHASE_FULL_MID>,<PHASE_FULL_TOP>) !important;
 	border:0px solid #000 !important;
 	border-radius:0 0 0 3px;
 	overflow:hidden;
