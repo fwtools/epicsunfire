@@ -16,9 +16,28 @@ class EpicSunfire {
 	public function main(Request $request, Response $response) {
 		$css = file_get_contents(__DIR__ . '/style.css');
 
-		foreach(glob(__DIR__ . '/cmp/*.css') as $filename) {
-			if($request->hasQueryParameter("san"))
-				$css.= file_get_contents($filename);
+		// TODO: modern_bwobei_style
+		
+		$cmps = ["ais", "ans", "cid", "cnr", "com", "csd", "cwd", "erwin", "rpz", "san", "san_n", "smn", "vti", "vti2", "wcv", "wcv_csd", "xxx" ];
+
+		$originals = [
+						"o" => [], 
+						"o2" => ["ais", "ans", "cid", "cnr", "com", "csd", "cwd", "rpz", "san", "smn", "vti", "vti2", "xxx"], 
+						"o3" => [], 
+						"o4" => []
+					 ];
+		
+		foreach($originals as $name => $original) {
+			if($request->hasQueryParameter($name) {
+				foreach($original as $cmp)
+					$css.= file_get_contents(__DIR__ . "/cmp/" . $cmp . ".css");
+				break;
+			}
+		}
+		
+		foreach($cmps as $cmp) {
+			if($request->hasQueryParameter($cmp))
+				$css.= file_get_contents(__DIR__ . "/cmp/" . $cmp . ".css");
 		}
 		// TODO: Change default to $classic
 		// TODO: custom handling
