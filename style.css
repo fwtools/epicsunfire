@@ -1,7 +1,7 @@
 @import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
-// @import url('cmp/ans.css');
-// @import url('cmp/smn.css');
-// @import url('cmp/san.css');
+/* @import url('cmp/ans.css'); */
+/* @import url('cmp/smn.css'); */
+/* @import url('cmp/san.css'); */
 html,body {
 	margin:0;
 	padding:0
@@ -1508,7 +1508,8 @@ a[href="map.php?reload=1"] img {
 	font-family:FontAwesome;
 	color:#ffa375
 }
-// siehe Addon #phasespacer {
+/* siehe Addon */
+#phasespacer {
 	display:inline-block;
 	height:0
 }
@@ -1565,7 +1566,7 @@ a[href="map.php?reload=1"] img {
 	text-align:center;
 	color:#eee;
 	padding:0 5px;
-	//font-weight:bold;
+	/*font-weight:bold;*/
 	width:calc(100% + 12px);
 	font-size:13px;
 	height:20px;
