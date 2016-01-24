@@ -838,7 +838,7 @@ html[id^="ItemFrame"]:before {
 	color:<MAIN_FONT>;
 	padding:0px 5px;
 	font-weight:bold;
-	font-size:13px;
+	font-size:<TEXT_SIZE>;
 	text-shadow:<TEXT_SHADOW>;
 	height:20px;
 	line-height:21px
