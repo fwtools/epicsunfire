@@ -4,7 +4,8 @@
 /* @import url('cmp/san.css'); */
 html,body {
 	margin:0;
-	padding:0
+	padding:0;
+	overflow-y: auto;
 }
 * {
 	box-sizing:border-box
