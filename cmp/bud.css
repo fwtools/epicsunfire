@@ -1,0 +1,12 @@
+#phasedisp {
+	height: 12px !important;
+}
+
+table[id^="fastspell"]:not(#fastspell) {
+	line-height: 18px !important;
+}
+
+.framemenubg {
+    line-height: 1.2em !important;
+	font-size: 12px !important;
+}
