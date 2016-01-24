@@ -28,7 +28,7 @@ class EpicSunfire {
 					 ];
 		
 		foreach($originals as $name => $original) {
-			if($request->hasQueryParameter($name) {
+			if($request->hasQueryParameter($name)) {
 				foreach($original as $cmp)
 					$css.= file_get_contents(__DIR__ . "/cmp/" . $cmp . ".css");
 				break;
