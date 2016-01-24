@@ -1676,7 +1676,7 @@ table[id^="fastspell"]:not(#fastspell) img[src$="close.gif"],#close1 img[src$="c
 	overflow:hidden
 }
 
-table[id^="fastspell"]:not(#fastspell) img[src$="close.gif"]:before,#close1 img[src$="close.gif"],#close2 img[src$="close.gif"]:before{
+table[id^="fastspell"]:not(#fastspell) a[href*="delete"]:before,#close1 a:before,#close2 a:before{
 	font-weight:normal;
 	font-style:normal;
 	font-family:FontAwesome;
