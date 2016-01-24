@@ -1004,6 +1004,7 @@ p.personlistcaption {
 	font-family:FontAwesome;
 	content: "\f1c0";
 	color: gold !important;
+	margin-right: -10px;
 	/*content:url(i/icon_gold.gif);
 	margin-right:4px;
 	transform:translateY(1px);
