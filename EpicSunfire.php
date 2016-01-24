@@ -23,7 +23,6 @@ class EpicSunfire {
 		// TODO: Change default to $classic
 		// TODO: custom handling
 		// TODO: modern_bwobei_style(TM)
-	background: linear-gradient(to bottom, ,,) !important;
 
 		$miranda =	[
 						"<MAIN_TONE>" => "orange",
