@@ -10,7 +10,4 @@ table[id^="fastspell"]:not(#fastspell) {
     line-height: 1.2em !important;
 	font-size: 12px !important;
 
-}	
-.frameitembg p, .frameitembg td {
-    line-height: 0.0 !important;
 }
