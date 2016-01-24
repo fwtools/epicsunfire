@@ -1542,7 +1542,7 @@ a[href="map.php?reload=1"] img {
 #curenergy {
 	background-image:none !important;
 	background: #1e5799;
-	background: linear-gradient(to top, <PHASE_FULL_BOT>,<PHASE_FULL_MID>,<PHASE_FULL_TOP>) !important;
+	background: linear-gradient(to top, <PHASE_CUR_BOT>,<PHASE_CUR_MID>,<PHASE_CUR_TOP>) !important;
 	border:0px solid #000 !important;
 	border-radius:0 0 0 3px;
 	overflow:hidden;
