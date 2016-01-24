@@ -6,7 +6,7 @@ use \Arya\Request as Request;
 use \Arya\Response as Response;
 
 class EpicSunfire {
-	private $allowedImageExtensions = ['png', 'gif', 'jpg'];
+	private $allowedImageExtensions = ['png', 'gif', 'jpg', 'svg'];
 	private $db;
 
 	public function __construct(\PDO $db) {
@@ -25,13 +25,18 @@ class EpicSunfire {
 		// TODO: modern_bwobei_style(TM)
 		
 		$orange =	[
-						"<MAIN_TONE>" => "green"
+						"<MAIN_TONE>" => "orange",
+						"<CONTRANST_MAIN>" => "#2980b9"
+					];		
+		$blue =	[
+						"<MAIN_TONE>" => "#2980b9",
+						"<CONTRANST_MAIN>" => "orange"
 					];
 		$classic =	[
 						"<MAIN_TONE>" => "red"
 					];		
 					
-		$themes = ["orange" => $orange, "classic" => $classic];
+		$themes = ["orange" => $orange, "blue" => $blue, "classic" => $classic];
 		$theme = "classic";
 		foreach($themes as $name => $theme_data) {
 			if($request->hasQueryParameter($name))

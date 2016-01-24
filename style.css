@@ -28,7 +28,7 @@ p {
 	margin:0
 }
 a {
-	color:#2980b9;
+	color:<CONTRAST_MAIN>;
 	font-weight:bold;
 	text-decoration:none
 }
@@ -317,7 +317,7 @@ p.maincaption2 a {
 }*/
 .itemlistcaption[style="width:550px"],.listcaption[style="width:550px"] {
 	border-radius:0 0 !important;
-	background-color:orange !important;
+	background-color:<MAIN_TONE> !important;
 	border:1px solid rgba(0,0,0,.2) !important;
 	background-image:none !important;
 	padding:4px 8px !important;
@@ -720,7 +720,7 @@ form[name="bank"] b[onmouseover^="tt('gepresste Zauberkugel'"] {
 }*/
 .worldsay tr[bgcolor="#C1CEF9"] td {
 	padding:2px 5px;
-	background-color:#2980b9 !important;
+	background-color:<CONTRAST_MAIN> !important;
 	color:#FAFAFA !important;
 	border:1px solid rgba(0,0,0,.2) !important
 }
@@ -803,7 +803,7 @@ html[id^="MapFrame"] {
 	background-image: url(i/fwbanner.jpg);
 }
 .framebannerbg > * {
-	border-bottom:6px solid orange !important
+	border-bottom:6px solid <MAIN_TONE> !important
 }
 .framemenubg {
 	height:65px
@@ -849,7 +849,7 @@ html[id^="ItemFrame"]:before {
 	text-align: left !important;
 }
 p.personlistcaption {
-	background: #2980b9 !important;
+	background: <CONTRAST_MAIN> !important;
 	color: #FFF !important;
 }
 #plantrow {
@@ -1110,7 +1110,7 @@ p.personlistcaption {
 	color:#27ae60
 }
 .listitemrow .itemamount {
-	color:#2980b9 !important;
+	color:<CONTRAST_MAIN> !important;
 }
 
 .listitemrow .itemamount {
@@ -1229,7 +1229,7 @@ p.personlistcaption {
 	color: #27ae60;
 }
 #listrow_int ~ .listitemrow a[href^="item.php?action=transfer1"]:before, #listrow_int ~ .listitemrow a[href^="item.php?action=manytransfer1"]:before, #listrow_int ~ .listitemrow a[href^="item.php?action=manydrop"]:before, #listrow_int ~ .listitemrow a[href^="item.php?action=activate"]:before {
-	color: #2980b9;
+	color: <CONTRAST_MAIN>;
 }
 #listrow_int ~ .listitemrow a[href^="item.php?action=watch"]:hover:before,#listrow_int ~ .listitemrow a[href^="item.php?action=transfer1"]:hover:before,#listrow_int ~ .listitemrow a[href^="item.php?action=manytransfer1"]:hover:before,#listrow_int ~ .listitemrow a[href^="item.php?action=manydrop"]:hover:before,#listrow_int ~ .listitemrow a[href^="item.php?action=activate"]:hover:before {
 	color:#d30
@@ -1315,7 +1315,7 @@ table.areadescription .mainheader {
 	padding-top:7px;
 	padding-bottom:7px;
 	font-size:22px;
-	background-color:orange;
+	background-color:<MAIN_TONE>;
 	color:#000;
 	border-bottom:1px solid rgba(0,0,0,.2);
 	text-shadow:0 2px 1px rgba(0,0,0,.2);
@@ -1364,7 +1364,7 @@ table.areadescription tr:nth-of-type(2) .areadescription {
 	padding:0 3px
 }
 .fastattack {
-	/*color:orange !important;*/
+	/*color:<MAIN_TONE> !important;*/
 	font-size:15px
 }
 .fastattack:hover {
@@ -1442,7 +1442,7 @@ a[href="map.php?reload=1"]:before {
 	font-family:FontAwesome;
 	font-style:normal;
 	font-weight:normal;
-	color:#2980b9
+	color:<CONTRAST_MAIN>
 }
 a[href="map.php?reload=1"]:after {
 	content:" Aktualisieren"
@@ -1465,7 +1465,7 @@ a[href="map.php?reload=1"] img {
 	padding:0px 12px 0px 3px;
 	height:20px;
 	border-bottom:1px solid rgba(0,0,0,.2);
-	background:orange;
+	background:<MAIN_TONE>;
 	font-weight:bold;
 	/*text-shadow:0 2px 1px rgba(0,0,0,.2)*/
 }
@@ -1475,7 +1475,7 @@ a[href="map.php?reload=1"] img {
 }
 
 .positiontext a {
-	color:#2980b9;
+	color:<CONTRAST_MAIN>;
 	text-decoration:none
 }
 .positiontext a:hover {
@@ -1562,7 +1562,7 @@ a[href="map.php?reload=1"] img {
 	border:1px solid rgba(0,0,0,.2);
 	border-left:0;
 	border-right:0;
-	background:orange;
+	background:<MAIN_TONE>;
 	text-align:center;
 	color:#eee;
 	padding:0 5px;
