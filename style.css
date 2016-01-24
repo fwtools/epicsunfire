@@ -1880,3 +1880,11 @@ a[href*="clanmenu.php?action=sos"] {
 		min-width: 50px;
 	}
 }
+
+a[href*="worldsay"] {
+	color : red !important;
+}
+
+.linux.gecko a {
+	font-weight: none !important;
+}
