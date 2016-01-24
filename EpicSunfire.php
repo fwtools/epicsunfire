@@ -35,6 +35,9 @@ class EpicSunfire {
 						"<POSITION_TEXT>" => "#000",
 						"<POSITION_HOVER>" => "#000",
 						"<POSITION_LINK>" => "#2980b9",						
+						"<PHASE_CUR_BOT>" => "#7db9e8 0%",
+						"<PHASE_CUR_MID>" => "#2989d8 50%",
+						"<PHASE_CUR_TOP>" => "#1e5799 100%",
 						"<PHASE_FULL_BOT>" => "#ffb76b 0%",
 						"<PHASE_FULL_MID>" => "#ffa73d 50%",
 						"<PHASE_FULL_TOP>" => "#ff7f04 100%",
@@ -52,7 +55,10 @@ class EpicSunfire {
 						"<POSITION_LINK>" => "#2980b9",						
 						"<PHASE_FULL_BOT>" => "#7db9e8 0%",
 						"<PHASE_FULL_MID>" => "#2989d8 50%",
-						"<PHASE_FULL_TOP>" => "#1e5799 100%",						
+						"<PHASE_FULL_TOP>" => "#1e5799 100%",
+						"<PHASE_CUR_BOT>" => "#ffb76b 0%",
+						"<PHASE_CUR_MID>" => "#ffa73d 50%",
+						"<PHASE_CUR_TOP>" => "#ff7f04 100%",
 						];
 		$classic =	[
 						"<MAIN_TONE>" => "red"
