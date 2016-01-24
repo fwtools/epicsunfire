@@ -31,6 +31,7 @@ class EpicSunfire {
 						"<MAIN_EMPHASIS>" => "#FFA54F",
 						"<SND_FONT>" => "#000",
 						"<AKA_LINK>" => "#3498db",
+						"<INV_LINK>" => "#2980b9",
 					];		
 		$powerade =	[
 						"<MAIN_TONE>" => "#2980b9",
@@ -39,6 +40,7 @@ class EpicSunfire {
 						"<MAIN_EMPHASIS>" => "#3498db",
 						"<SND_FONT>" => "#eee",
 						"<AKA_LINK>" => "#eee",
+						"<INV_LINK>" => "#eee",
 					];
 		$classic =	[
 						"<MAIN_TONE>" => "red"

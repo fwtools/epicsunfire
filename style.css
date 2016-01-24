@@ -1076,12 +1076,14 @@ p.personlistcaption {
 #listrow_char_mission {
 	background: #fafafa;
 }
+.listitemrow:nth-child(2n+1) {
+	background:#fafafa;
+}
 .listitemrow {
 	position:relative;
 	padding:2px 3px;
 	padding-left:9px;
 	padding-right:70px;
-	background:#fafafa;
 	width:calc(100% + 12px);
 	margin:0 -6px;
 	min-height:19px
@@ -1090,6 +1092,9 @@ p.personlistcaption {
 	background:#eee
 }*/
 
+a[href*="openinv"], a[href*="closeinv"] {
+	color: <INV_LINK> !important;
+}
 
 .listitemrow ~ form {
 	width:0;
