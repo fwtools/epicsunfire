@@ -22,7 +22,7 @@ class EpicSunfire {
 
 		$originals = [
 						"o" => [], 
-						"o2" => ["ais", "ans", "cid", "cnr", "com", "csd", "cwd", "rpz", "san", "smn", "vti", "vti2", "xxx"], 
+						"o2" => ["ans", "com", "cwd", "rpz", "san", "smn", "xxx"], //"ais", "cid", "csd", "vti", "vti2", ;
 						"o3" => [], 
 						"o4" => []
 					 ];
