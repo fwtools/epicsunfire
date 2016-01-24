@@ -880,7 +880,7 @@ p.personlistcaption {
 	background:#eee
 }
 #listrow_aka_battlep {
-	background:#FFA54F;
+	background:<MAIN_EMPHASIS>;
 	color:#000;
 	text-align:center;
 	border-bottom:1px solid rgba(0,0,0,.2);

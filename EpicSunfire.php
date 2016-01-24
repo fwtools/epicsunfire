@@ -28,11 +28,13 @@ class EpicSunfire {
 						"<MAIN_TONE>" => "orange",
 						"<CONTRAST_MAIN>" => "#2980b9",
 						"<MAIN_FONT>" => "#000",
+						"<MAIN_EMPHASIS>" => "#FFA54F",
 					];		
 		$powerade =	[
-						"<MAIN_TONE>" => "#3498db",
+						"<MAIN_TONE>" => "#2980b9",
 						"<CONTRAST_MAIN>" => "#2980b9",
 						"<MAIN_FONT>" => "#eee",
+						"<MAIN_EMPHASIS>" => "#3498db",
 					];
 		$classic =	[
 						"<MAIN_TONE>" => "red"
