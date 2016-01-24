@@ -20,7 +20,9 @@ class EpicSunfire {
 			if($request->hasQueryParameter("san"))
 				$css.= file_get_contents($filename);
 		}
-
+		
+		$css = str_replace("<ORANGE>", "red", $css);
+		
 		$body = $response->getBody();
 		$response->setBody($body . $css);
 	}
