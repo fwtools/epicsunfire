@@ -1438,6 +1438,7 @@ table.areadescription tr:nth-of-type(2) .areadescription {
 	background-image:url(i/berg.png) !important
 }*/
 a[href="map.php?reload=1"] {
+	color: <POSITION_LINK> !important;
 	position:absolute;
 	left:16px;
 	font-size:11px
@@ -1447,7 +1448,7 @@ a[href="map.php?reload=1"]:before {
 	font-family:FontAwesome;
 	font-style:normal;
 	font-weight:normal;
-	color:<CONTRAST_MAIN>
+	color:<POSITION_LINK>
 }
 a[href="map.php?reload=1"]:after {
 	content:" Aktualisieren"
