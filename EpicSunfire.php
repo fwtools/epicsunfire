@@ -50,6 +50,7 @@ class EpicSunfire {
 						"<PLANT_LIST>" => "FFF",
 						"<ITEM_LIST_BG>" => "orange",
 						"<ITEM_LIST>" => "#000",
+						"<MAIN_HEADER>" => "orange",
 						];		
 		$powerade =	[
 						"<MAIN_TONE>" => "#2980b9",
@@ -77,6 +78,7 @@ class EpicSunfire {
 						"<PLANT_LIST>" => "#eee",
 						"<ITEM_LIST_BG>" => "#2980b9",
 						"<ITEM_LIST>" => "#eee",
+						"<MAIN_HEADER>" => "#2980b9",
 						];	
 						
 		$lefizz =	[
@@ -105,6 +107,7 @@ class EpicSunfire {
 						"<ITEM_LIST>" => "#000",
 						"<PLANT_LIST_BG>" => "linear-gradient(to top, green 0%, white 100%)",
 						"<PLANT_LIST>" => "#000",
+						"<MAIN_HEADER>" => "linear-gradient(to right, orange 0%, white 100%)",
 						];	
 						
 		$themes = ["miranda" => $miranda, "powerade" => $powerade, "lefizz" => $lefizz];

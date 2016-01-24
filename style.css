@@ -1327,7 +1327,7 @@ table.areadescription .mainheader {
 	padding-top:7px;
 	padding-bottom:7px;
 	font-size:22px;
-	background-color:<MAIN_TONE>;
+	background:<MAIN_HEADER>;
 	color:#000;
 	border-bottom:1px solid rgba(0,0,0,.2);
 	text-shadow:0 2px 1px rgba(0,0,0,.2);
