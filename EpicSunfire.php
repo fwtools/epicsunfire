@@ -126,7 +126,7 @@ class EpicSunfire {
 						"<SZ_ACTIVE_BG>" => "white",
 						"<PERSON_LIST_BG>" => "linear-gradient(to top, #AAF 0%, white 100%)",
 						"<PERSON_LIST>" => "#000",
-						"<ITEM_LIST_BG>" => "linear-gradient(to top, gold 0%, white 100%)",
+						"<ITEM_LIST_BG>" => "linear-gradient(to top, #FA1 0%, white 100%)",
 						"<ITEM_LIST>" => "#000",
 						"<PLANT_LIST_BG>" => "linear-gradient(to top, green 0%, white 100%)",
 						"<PLANT_LIST>" => "#000",
