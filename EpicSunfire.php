@@ -26,11 +26,11 @@ class EpicSunfire {
 		
 		$orange =	[
 						"<MAIN_TONE>" => "orange",
-						"<CONTRANST_MAIN>" => "#2980b9"
+						"<CONTRAST_MAIN>" => "#2980b9"
 					];		
 		$blue =	[
 						"<MAIN_TONE>" => "#2980b9",
-						"<CONTRANST_MAIN>" => "orange"
+						"<CONTRAST_MAIN>" => "orange"
 					];
 		$classic =	[
 						"<MAIN_TONE>" => "red"
