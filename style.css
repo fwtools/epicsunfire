@@ -40,7 +40,8 @@ a:hover {
 	text-decoration:none
 }
 a:focus {
-	outline:0px solid transparent
+	/*outline:0px solid transparent*/
+	color:#b92201
 }
 a:active {
 	color:#b92201
