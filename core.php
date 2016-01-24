@@ -1,24 +1,24 @@
 <?php
-header("Content-Type: text/css; charset=utf-8");
-date_default_timezone_set('Europe/Berlin');
-$now = time();
-if (date("d.m") == "01.04" || date("d.m") == "31.03")
-$future = strtotime("midnight") + 86400;
-else
-$future = $now + 86400;
-$modded = date("D, d M o H:i:s",$future);
-//echo "Expires: Sat, 26 Jul 1997 05:00:00 GMT<br/>";
-//echo "Expires: $modded GMT";
-header("Expires: $modded CET");
-header("Last-Modified: ".gmdate("D, d M Y H:i:s", filemtime(__FILE__)) ." GMT");
-header("Cache-Control: private, max-age=86400");
-header("Cache-Control: pre-check=86400", false);
+// header("Content-Type: text/css; charset=utf-8");
+// date_default_timezone_set('Europe/Berlin');
+// $now = time();
+// if (date("d.m") == "01.04" || date("d.m") == "31.03")
+// $future = strtotime("midnight") + 86400;
+// else
+// $future = $now + 86400;
+// $modded = date("D, d M o H:i:s",$future);
+// //echo "Expires: Sat, 26 Jul 1997 05:00:00 GMT<br/>";
+// //echo "Expires: $modded GMT";
+// header("Expires: $modded CET");
+// header("Last-Modified: ".gmdate("D, d M Y H:i:s", filemtime(__FILE__)) ." GMT");
+// header("Cache-Control: private, max-age=86400");
+// header("Cache-Control: pre-check=86400", false);
 $main_tone = "orange";
 print <<<ENDCSS
 @import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
-@import url('cmp/ans.css');
-@import url('cmp/smn.css');
-@import url('cmp/san.css');
+// @import url('cmp/ans.css');
+// @import url('cmp/smn.css');
+// @import url('cmp/san.css');
 html,body {
 	margin:0;
 	padding:0

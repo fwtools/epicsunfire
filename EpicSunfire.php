@@ -17,7 +17,8 @@ class EpicSunfire {
 		$css = file_get_contents(__DIR__ . '/style.css');
 
 		foreach(glob(__DIR__ . '/cmp/*.css') as $filename) {
-			$css.= file_get_contents($filename);
+			if($request->hasQueryParamter("san")
+				$css.= file_get_contents($filename);
 		}
 
 		$body = $response->getBody();
@@ -59,6 +60,8 @@ class EpicSunfire {
 		$response->setHeader('Last-Modified', $mod_gmt);
 		$response->setHeader('Cache-Control', 'private, max-age='.(1801 - time() % 1800));
 		$response->addHeader('Cache-Control', 'pre-check='.(1801 - time() % 1800));
+		
+		include(__DIR__ . "core.php");
 
 		srand((integer) (time() / 1800) + 1184);
 		if (rand(1, 3) == 1) {
