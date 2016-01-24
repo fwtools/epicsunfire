@@ -881,13 +881,13 @@ p.personlistcaption {
 }
 #listrow_aka_battlep {
 	background:<MAIN_EMPHASIS>;
-	color:#000;
+	color:<SND_FONT>;
 	text-align:center;
 	border-bottom:1px solid rgba(0,0,0,.2);
 	font-size:10px
 }
 #listrow_aka_battlep a {
-	color:#3498db
+	color:<AKA_LINK>
 }
 #listrow_char_mission,#listrow_clan {
 	height:20px;
@@ -1574,7 +1574,7 @@ a[href="map.php?reload=1"] img {
 	text-shadow:0 2px 1px rgba(0,0,0,.2)
 }
 #fastspell td {
-	color:#000;
+	color:<MAIN_FONT>;
 	font-size:13px
 }
 #fastspell tr > td + td > b {
