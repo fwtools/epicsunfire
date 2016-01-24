@@ -13,5 +13,13 @@ table[id^="fastspell"]:not(#fastspell) {
 }
 
 table[id^="fastspell"]:not(#fastspell) {
-    height: 18px;
+    height: 14px !important;
+}
+
+table[id^="fastspell"]:not(#fastspell) a {
+    font-size: 10px !important;
+}
+
+table[id^="fastspell"]:not(#fastspell) td {
+    font-size: 10px !important;
 }
