@@ -1157,7 +1157,7 @@ a[href*="openinv"], a[href*="closeinv"] {
 }
 .listitemrow a[href^="item.php?action=activate"] {
 	/*font-size:0;*/
-	content: url("i/black/svg/circle-o.svg");
+	/*content: url("i/black/svg/circle-o.svg");*/
 }
 .listitemrow a[href^="item.php?action=activate"]:before {
 	content:"\f10c"
