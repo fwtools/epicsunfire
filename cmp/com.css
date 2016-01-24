@@ -1,0 +1,10 @@
+/* COM: Coordinates On Map */
+
+/*
+.framemapbg td:hover:after { background-color: #B2B2B2; border-radius: 10px 10px 0 0; content: " "; height: 16px; margin-left: -50px; position: absolute; width: 50px; margin-top: 34px; }
+.framemapbg td:hover:before { clip: rect(0px, 75px, 20px, 29px); content: attr(id); margin-left: -27px; position: absolute; z-index: 1; margin-top: 35px; }
+*/
+/* Variant 2: */
+
+.framemapbg td:after { background-color: #B2B2B2; border-radius: 10px; content: " "; left: 100px; height: 11px; top: 284px; position: absolute; width: 75px; }
+.framemapbg td:hover:before { clip: rect(0px, 75px, 20px, 18px); content: attr(id); left: 90px; font-size: 10px; position: absolute; z-index: 1; top: 282px; letter-spacing: -1px; }

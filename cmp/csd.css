@@ -1,0 +1,74 @@
+/* COLORS */
+#listrow_aka_battlep { text-align: center; border-bottom: 1px solid rgba(0,0,0,.2); }
+/* /COLORS */
+
+/* TABLE */
+#listrow_char_mission, #listrow_clan { display: table; padding: 0; width: calc(100% - 1px); border-collapse: collapse; font-size: 0; color: transparent; }
+/* /TABLE */
+
+/* TABLECELLS */
+#listrow_char_mission a, #listrow_clan a { display: table-cell; width: 50%; text-align: center; padding: 2px; margin: 0; }
+#listrow_char_mission a:nth-of-type(1), #listrow_clan a:nth-of-type(1) { border-right: 1px solid rgba(0,0,0,.1); }
+#listrow_char_mission a { font-size: 0; }
+
+#listrow_char_mission a:nth-of-type(1):after { font-size: 12px; content: "F\00E4higkeiten"; }
+#listrow_char_mission a:nth-of-type(2):after { font-size: 12px; content: "Auftrag"; }
+#listrow_clan a { font-size: 12px; }
+/* /TABLECELLS */
+
+/* GROUP */
+#listrow_clan img[src$="group.gif"] { display: none; }
+#listrow_clan a[href="fight.php?action=groupjoinrand"]:after { content: "Zuf\00E4llige Gruppe"; }
+
+#listrow_group { position: absolute; z-index: 2; right: 12px; left: calc(50% + 6px); text-align: center; margin-top: -19px;  border: 0; letter-spacing: -.5px; }
+/* /GROUP */
+
+/* LIFEPOINTS */
+#listrow_lifep { position: absolute; right: 0; margin: -1px 0 0; z-index: 10000; font-size: 16px; border: 1px solid rgba(0,0,0,.2); padding: 0 5px; height: 36px; line-height: 36px; border-right: 0; box-shadow: 0 0 3px rgba(0,0,0,.1); }
+#listrow_lifep > b { display: none; }
+#listrow_lifep > span > b { font-weight: bold; }
+#listrow_lifep > span { font-size: 1em; }
+/* /LIFEPOINTS */
+
+/* INT/SPEED */
+#listrow_int b { display: inline-block; width: 19px; overflow: hidden; height: 11px; }
+#listrow_int b::before { content: "Int:"; padding-right: 10px; }
+/* /INT/SPEED */
+
+/* MONEY */
+#listrow_money { white-space: nowrap; overflow: hidden; }
+#listrow_money img[src$="icon_gold.gif"] { display: inline-block; width: 0; overflow: hidden; margin-right: 100%; }
+#listrow_money a { display: inline-block; }
+#listrow_money a[href="item.php?action=moneydrop1"] { text-indent: -15px; margin-left: -100%; margin-right: 100%; }
+#listrow_money a[href="item.php?action=moneytransfer1"] { margin-left: -100%; margin-right: 100% }
+/* /MONEY */
+
+/* HIGHLIGHT IMPORTANT INFO */
+#listrow_money > b, #listrow_lifep > b, #listrow_int > b, #listrow_attackp > b,
+#listrow_attackw > b, #listrow_defensep > b, #listrow_defensew > b { font-weight: normal; }
+
+#listrow_money, #listrow_lifep, #listrow_int, #listrow_attackp,
+#listrow_attackw, #listrow_defensep, #listrow_defensew { font-weight: bold; }
+/* /HIGHLIGHT IMPORTANT INFO */
+
+/* SPECIAL & STATUS */
+#listrow_special a { width: 0; display: inline-block; font-size: 0; }
+#listrow_special a:before { font-size: 12px; content: "Spezial"; }
+#listrow_status { min-height: 0; }
+#listrow_special + #listrow_status { min-height: 14px; margin-top: -19px; text-indent: 44px; }
+#listrow_status .small { font-size: 12px; }
+/* /SPECIAL & STATUS */
+
+/* WAFFEN */
+#listrow_attackp .valueincreased:after { display: inline-block; width: 200px; content: ""; }
+
+#listrow_attackw, #listrow_defensew { right: 15px; border: 0; margin-top: -18px; line-height: 1em; position: absolute; transition: width 250ms, color 250ms, font-size 250ms; color: #eee; width: 33px; overflow: hidden; display: block; height: 12px; }
+p[title~="Zustand:"] a::before { display: none; }
+#listrow_attackw:not([title]) a::after, #listrow_defensew:not([title]) a::after { content: "\2014"; }
+
+#listrow_attackw:hover, #listrow_defensew:hover { font-weight: normal; padding-left: 4px; width: calc(100% - 32px); font-size: 12px; color: #222; }
+
+#listrow_attackw b, #listrow_defensew b { display: inline-block; position: absolute; right: 0; top: 0; font-size: 0; }
+
+#listrow_attackw a:after, #listrow_defensew a:after { display: inline-block; font-size: 12px !important; padding-left: 10px; margin-top: 2px; }
+/* /WAFFEN */
