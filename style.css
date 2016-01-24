@@ -999,10 +999,15 @@ p.personlistcaption {
 	margin-right:100%
 }
 #listrow_money b:before {
-	content:url(i/icon_gold.gif);
+	font-weight:normal;
+	font-style:normal;
+	font-family:FontAwesome;
+	content: "\f1c0";
+	color: gold !important;
+	/*content:url(i/icon_gold.gif);
 	margin-right:4px;
 	transform:translateY(1px);
-	display:inline-block
+	display:inline-block*/
 }
 #listrow_money a {
 	display:inline-block
