@@ -105,7 +105,7 @@ class EpicSunfire {
 						"<BACKGROUND_LINK>" => "#CC3300",
 						"<SZ_INACTIVE_BG>" => "#000",
 						"<SZ_ACTIVE_BG>" => "white",
-						"<PERSON_LIST_BG>" => "linear-gradient(to top, lightblue 0%, white 100%)",
+						"<PERSON_LIST_BG>" => "linear-gradient(to top, #AAF 0%, white 100%)",
 						"<PERSON_LIST>" => "#000",
 						"<ITEM_LIST_BG>" => "linear-gradient(to top, gold 0%, white 100%)",
 						"<ITEM_LIST>" => "#000",
