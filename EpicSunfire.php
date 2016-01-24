@@ -42,7 +42,15 @@ class EpicSunfire {
 						"<PHASE_FULL_MID>" => "#ffa73d 50%",
 						"<PHASE_FULL_TOP>" => "#ff7f04 100%",
 						"<BACKGROUND_LINK>" => "#2980b9",
-					];		
+						"<SZ_INACTIVE_BG>" => "#3498db",
+						"<SZ_ACTIVE_BG>" => "white",
+						"<PERSON_LIST_BG>" => "#2980b9",
+						"<PERSON_LIST>" => "#FFF",
+						"<PLANT_LIST_BG>" => "green",
+						"<PLANT_LIST>" => "FFF",
+						"<ITEM_LIST_BG>" => "orange",
+						"<ITEM_LIST>" => "#000",
+						];		
 		$powerade =	[
 						"<MAIN_TONE>" => "#2980b9",
 						"<CONTRAST_MAIN>" => "#2980b9",
@@ -61,7 +69,16 @@ class EpicSunfire {
 						"<PHASE_CUR_MID>" => "#ffa73d 50%",
 						"<PHASE_CUR_TOP>" => "#ff7f04 100%",
 						"<BACKGROUND_LINK>" => "#CC3300",
-						];
+						"<SZ_INACTIVE_BG>" => "#3498db",
+						"<SZ_ACTIVE_BG>" => "white",
+						"<PERSON_LIST_BG>" => "#2980b9",
+						"<PERSON_LIST>" => "#eee",
+						"<PLANT_LIST_BG>" => "#2980b9",
+						"<PLANT_LIST>" => "#eee",
+						"<ITEM_LIST_BG>" => "#2980b9",
+						"<ITEM_LIST>" => "#eee",
+						];	
+						
 		$lefizz =	[
 						"<MAIN_TONE>" => "linear-gradient(to top, #BBB 0%, white 100%)",
 						"<CONTRAST_MAIN>" => "#CC3300",
@@ -79,9 +96,17 @@ class EpicSunfire {
 						"<PHASE_CUR_BOT>" => "#ffb76b 0%",
 						"<PHASE_CUR_MID>" => "#ffa73d 50%",
 						"<PHASE_CUR_TOP>" => "#ff7f04 100%",
-						"<BACKGROUND_LINK>" => "#CC3300",					
-						];		
-					
+						"<BACKGROUND_LINK>" => "#CC3300",
+						"<SZ_INACTIVE_BG>" => "#000",
+						"<SZ_ACTIVE_BG>" => "#3498db",
+						"<PERSON_LIST_BG>" => "linear-gradient(to top, #purple 0%, white 100%)",
+						"<PERSON_LIST>" => "#000",
+						"<PLANT_LIST_BG>" => "linear-gradient(to top, golden 0%, white 100%)",
+						"<PLANT_LIST>" => "#000",
+						"<ITEM_LIST_BG>" => "linear-gradient(to top, lime 0%, white 100%)",
+						"<ITEM_LIST>" => "#000",
+						];	
+						
 		$themes = ["miranda" => $miranda, "powerade" => $powerade, "lefizz" => $lefizz];
 		$theme = "lefizz";
 		foreach($themes as $name => $theme_data) {

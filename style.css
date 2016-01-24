@@ -851,13 +851,17 @@ html[id^="ItemFrame"]:before {
 .itemlistcaption, .personlistcaption, #plantrow {
 	text-align: left !important;
 }
+.itemlistcaption {
+	background: <ITEM_LIST_BG> !important;
+	color: <ITEM_LIST> !important;
+}
 p.personlistcaption {
-	background: <CONTRAST_MAIN> !important;
-	color: #FFF !important;
+	background: <PERSON_LIST_BG> !important;
+	color: <PERSON_LIST> !important;
 }
 #plantrow {
-	background: green !important;
-	color: #FFF !important;
+	background: <PLANT_LIST_BG> !important;
+	color: <PLANT_LIST> !important;
 }
 .frameitembg .listcaption:first-of-type {
 	border-top:0
@@ -1594,13 +1598,13 @@ a.fast_spell_set,span.fast_spell_set {
 	border-radius:50%;
 	width:16px;
 	height:16px;
-	background:#3498db;
+	background:<SZ_INACTIVE_BG>;
 	text-align:center;
 	font-size:11px;
 	line-height:16px
 }
 span.fast_spell_set {
-	background:#fff;
+	background:<SZ_ACTIVE_BG>;
 	color:#222
 }
 a.fast_spell_set {
