@@ -136,7 +136,7 @@ class EpicSunfire {
 						];	
 						
 		$themes = ["miranda" => $miranda, "powerade" => $powerade, "lefizz" => $lefizz];
-		$theme = "lefizz";
+		$theme = $lefizz;
 		foreach($themes as $name => $theme_data) {
 			if($request->hasQueryParameter($name)) {
 				$theme = $theme_data;
