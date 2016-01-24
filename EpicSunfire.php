@@ -18,7 +18,7 @@ class EpicSunfire {
 
 		// TODO: modern_bwobei_style
 		
-		$cmps = ["ais", "ans", "cid", "cnr", "com", "csd", "cwd", "erwin", "rpz", "san", "san_n", "smn", "vti", "vti2", "wcv", "wcv_csd", "xxx" ];
+		$cmps = ["ais", "ans", "cid", "cnr", "com", "csd", "cwd", "erwin", "rpz", "san", "san_n", "smn", "vti", "vti2", "wcv", "wcv_csd", "xxx", "nyss" ];
 
 		$originals = [
 						"o" => [], 
