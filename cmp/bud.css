@@ -11,3 +11,7 @@ table[id^="fastspell"]:not(#fastspell) {
 	font-size: 12px !important;
 
 }
+
+table[id^="fastspell"]:not(#fastspell) {
+    height: 18px;
+}
