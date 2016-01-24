@@ -998,7 +998,7 @@ p.personlistcaption {
 	width:0;
 	margin-right:100%
 }
-#listrow_money b:before {
+#listrow_money:before {
 	font-weight:normal;
 	font-style:normal;
 	font-family:FontAwesome;
