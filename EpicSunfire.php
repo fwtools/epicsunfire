@@ -41,6 +41,7 @@ class EpicSunfire {
 						"<PHASE_FULL_BOT>" => "#ffb76b 0%",
 						"<PHASE_FULL_MID>" => "#ffa73d 50%",
 						"<PHASE_FULL_TOP>" => "#ff7f04 100%",
+						"<BACKGROUND_LINK>" => "#2980b9",
 					];		
 		$powerade =	[
 						"<MAIN_TONE>" => "#2980b9",
@@ -52,13 +53,14 @@ class EpicSunfire {
 						"<INV_LINK>" => "#eee",
 						"<POSITION_TEXT>" => "#eee",
 						"<POSITION_HOVER>" => "#eee",
-						"<POSITION_LINK>" => "#2980b9",						
+						"<POSITION_LINK>" => "#eee",						
 						"<PHASE_FULL_BOT>" => "#7db9e8 0%",
 						"<PHASE_FULL_MID>" => "#2989d8 50%",
 						"<PHASE_FULL_TOP>" => "#1e5799 100%",
 						"<PHASE_CUR_BOT>" => "#ffb76b 0%",
 						"<PHASE_CUR_MID>" => "#ffa73d 50%",
 						"<PHASE_CUR_TOP>" => "#ff7f04 100%",
+						"<BACKGROUND_LINK>" => "#CC3300",
 						];
 		$classic =	[
 						"<MAIN_TONE>" => "red"

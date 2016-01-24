@@ -27,8 +27,11 @@ p {
 	padding:0;
 	margin:0
 }
-a {
+#ItemFrameItem a {
 	color:<CONTRAST_MAIN>;
+}
+a {
+	color:<BACKGROUND_LINK>;
 	font-weight:bold;
 	text-decoration:none
 }
