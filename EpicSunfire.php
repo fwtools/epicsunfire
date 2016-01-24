@@ -62,15 +62,33 @@ class EpicSunfire {
 						"<PHASE_CUR_TOP>" => "#ff7f04 100%",
 						"<BACKGROUND_LINK>" => "#CC3300",
 						];
-		$classic =	[
-						"<MAIN_TONE>" => "red"
-					];		
+		$lefizz =	[
+						"<MAIN_TONE>" => "linear-gradient(to top, #BBB 0%, white 100%)",
+						"<CONTRAST_MAIN>" => "#2980b9",
+						"<MAIN_FONT>" => "#eee",
+						"<MAIN_EMPHASIS>" => "#3498db",
+						"<SND_FONT>" => "#eee",
+						"<AKA_LINK>" => "#eee",
+						"<INV_LINK>" => "#eee",
+						"<POSITION_TEXT>" => "#eee",
+						"<POSITION_HOVER>" => "#eee",
+						"<POSITION_LINK>" => "#eee",						
+						"<PHASE_FULL_BOT>" => "#7db9e8 0%",
+						"<PHASE_FULL_MID>" => "#2989d8 50%",
+						"<PHASE_FULL_TOP>" => "#1e5799 100%",
+						"<PHASE_CUR_BOT>" => "#ffb76b 0%",
+						"<PHASE_CUR_MID>" => "#ffa73d 50%",
+						"<PHASE_CUR_TOP>" => "#ff7f04 100%",
+						"<BACKGROUND_LINK>" => "#CC3300",					
+						];		
 					
-		$themes = ["miranda" => $miranda, "powerade" => $powerade, "classic" => $flatlight];
-		$theme = "classic";
+		$themes = ["miranda" => $miranda, "powerade" => $powerade, "lefizz" => $lefizz];
+		$theme = "lefizz";
 		foreach($themes as $name => $theme_data) {
-			if($request->hasQueryParameter($name))
+			if($request->hasQueryParameter($name)) {
 				$theme = $theme_data;
+				break;
+			}
 		}
 					
 		$css = $this->skin_it($css, $theme);
