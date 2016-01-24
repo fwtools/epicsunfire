@@ -1,0 +1,42 @@
+/* Erwin */
+/* Importierbares Styleaddon für Freewar - (c) Zabuza 2011 */
+
+/* Itemhervorhebung für Shops - Edelstoff  Welt 2 */
+
+td.areadescription table b[onmouseover^="tt('Bernsteinfeder',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('bronzene Jerodar-Halskette',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Felsenwurmschild',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Fernheilzauber',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Feueröl',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Feuerkolben',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Flasche Sumpfgas',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Goldkrebspanzer',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Goldflosse',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Goldstaub',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('goldener Kuhdarm',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('goldene Jerodar-Halskette',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Goldsonnen-Blümchen',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('großer Skorpionstachel',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Hasenfell',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Horn des Teidams',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('lebendes Wasser',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Notizblock',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Krustenkäferpanzer',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Kristall der Heilung',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Kristall des Schmerzes',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Langzahn',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Schild der Vernichtung',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Silberfuchsfell',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Speisekarte aus Blatenien',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Spitzhacke',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('silberne Jerodar-Halskette',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('starker Rückangriff gegen edelstoff',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Statue von Horikon',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Steinschale',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Stierhoden',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Tropfstein',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Trockenwurmpanzer',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Waldschlurchpanzer',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Zauberpolle',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('Zauber der Wiederherstellung',"]{color:#CC0000;}
+td.areadescription table b[onmouseover^="tt('zerbrochene Jerodar-Halskette',"]{color:#CC0000;}
