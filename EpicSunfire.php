@@ -64,14 +64,14 @@ class EpicSunfire {
 						];
 		$lefizz =	[
 						"<MAIN_TONE>" => "linear-gradient(to top, #BBB 0%, white 100%)",
-						"<CONTRAST_MAIN>" => "#2980b9",
+						"<CONTRAST_MAIN>" => "#CC3300",
 						"<MAIN_FONT>" => "#000",
 						"<MAIN_EMPHASIS>" => "#eee",
 						"<SND_FONT>" => "#000",
 						"<AKA_LINK>" => "#CC3300",
 						"<INV_LINK>" => "#CC3300",
 						"<POSITION_TEXT>" => "#000",
-						"<POSITION_HOVER>" => "#eee",
+						"<POSITION_HOVER>" => "#CC3300",
 						"<POSITION_LINK>" => "#000",						
 						"<PHASE_FULL_BOT>" => "#7db9e8 0%",
 						"<PHASE_FULL_MID>" => "#2989d8 50%",
