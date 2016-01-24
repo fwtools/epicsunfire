@@ -1668,18 +1668,22 @@ table[id^="fastspell"]:not(#fastspell) img[src$="close.gif"],#close1 img[src$="c
 	display:inline-block;
 	width:0px;
 	height:10px;
-	background:url(i/black/svg/trash.svg);
-	/*font-weight:normal;
-	font-style:normal;
-	font-family:FontAwesome;
-	content: "\f1f8";*/
+	/* background:url(i/black/svg/trash.svg); */
 	background-repeat:no-repeat;
 	margin-top:2px;
 	padding-left:10px;
 	overflow:hidden
 }
+
+table[id^="fastspell"]:not(#fastspell) img[src$="close.gif"],#close1 img[src$="close.gif"],#close2 img[src$="close.gif"] {
+	font-weight:normal;
+	font-style:normal;
+	font-family:FontAwesome;
+	content: "\f1f8";
+}
+
 table[id^="fastspell"]:hover:not(#fastspell) img[src$="close.gif"] {
-	background:url(i/black/svg/trash_red.svg);
+	/* background:url(i/black/svg/trash_red.svg); */
 }
 #MainFrameProfil a[href^="profil.php?action=enable"]:before,#MainFrameProfil a[href^="profil.php?action=show"]:before {
 	display:inline-block;
