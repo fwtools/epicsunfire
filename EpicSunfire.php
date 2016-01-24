@@ -27,11 +27,13 @@ class EpicSunfire {
 		$orange =	[
 						"<MAIN_TONE>" => "green"
 					];
+		$classic =	[
+						"<MAIN_TONE>" => "red"
+					];		
+					
+		$themes = [$orange, $classic];
 		
-		
-		$themes = [$orange];
-		
-		$theme = ($request->hasQueryParameter("theme")) ? ((in_array($request->getQueryParameter("theme"))) ? $request->getQueryParameter("theme") : $custom) : $orange;
+		$theme = ($request->hasQueryParameter("theme")) ? ((in_array($request->getQueryParameter("theme"))) ? $request->getQueryParameter("theme") : $custom) : $classic;
 					
 		$css = $this->skin_it($css, $theme);
 		
