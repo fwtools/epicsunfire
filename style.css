@@ -157,24 +157,24 @@ textarea,input[type="text"],input:not([type]) {
 	display:none
 }
 a[href^="main.php?action=whisperuser&act_user_id="]:after {
-	content:"\\f075";
+	content:"\f075";
 	color: #27ae60;
 }
 .framemainbg a[href^="chatform.php?action=whisperuser&act_user_id="]:after {
-	content:"\\f075";
+	content:"\f075";
 	color: #27ae60;
 }
 img[src$="group.gif"] {
 	display:none
 }
 a[href^="fight.php?action=groupinvite&act_user_id="]:after {
-	content:"\\f0c0"
+	content:"\f0c0"
 }
 #listrow_group img[src$="group.gif"] {
 	display:none
 }
 a[href^="fight.php?action=groupjoinrand"]:before {
-	content:"\\f0c0"
+	content:"\f0c0"
 }
 a[href^="chatform.php?action=whisperuser&act_user_id="]:after,a[href^="chatform.php?action=whisperuser&act_user_id="]:hover:after,a[href^="main.php?action=whisperuser&act_user_id="]:after,a[href^="main.php?action=whisperuser&act_user_id="]:hover:after,a[href^="fight.php?action=groupinvite&act_user_id="]:after,a[href^="fight.php?action=groupinvite&act_user_id="]:hover:after,a[href^="fight.php?action=groupjoinrand"]:before,a[href^="fight.php?action=groupjoinrand"]:hover:before {
 	/*color:#666;*/
@@ -360,11 +360,11 @@ p.maincaption2 a {
 	font-weight:normal
 }
 .listcaption[style="width:550px"] a[title$="ein)"]:after {
-	content:"\\f06e";
+	content:"\f06e";
 	color:#fff
 }
 .listcaption[style="width:550px"] a[title$="aus)"]:after {
-	content:"\\f070";
+	content:"\f070";
 	color:#fa9
 }
 td[style$="/map/black.jpg"] a:not(.nocango),td[style$="/map/u/Einzelbilder/002.jpg"] a,td[style$="/map/ixi19.jpg"] a {
@@ -672,7 +672,7 @@ form[name="bank"] b[onmouseover^="tt('gepresste Zauberkugel'"] {
 	font-style:italic
 }
 .chattextinfo::before {
-	content: "Bemerkenswert:\\0020";
+	content: "Bemerkenswert:\0020";
 }
 .chattextwhisper,.submitwhisper {
 	color:#006600
@@ -685,7 +685,7 @@ form[name="bank"] b[onmouseover^="tt('gepresste Zauberkugel'"] {
 	font-family:FontAwesome;
 	font-style:normal;
 	font-weight:normal;
-	content:"\\f0c2"
+	content:"\f0c2"
 }
 .chattextscream:before {
 	padding-left:1px;
@@ -693,7 +693,7 @@ form[name="bank"] b[onmouseover^="tt('gepresste Zauberkugel'"] {
 	font-family:FontAwesome;
 	font-style:normal;
 	font-weight:normal;
-	content:"\\f0ac"
+	content:"\f0ac"
 }
 /*.worldsay,.worldsay table,.worldsay tbody,.worldsay table td {
 	font-size:11px
@@ -830,7 +830,7 @@ html[id^="ItemFrame"]:before {
 	border:1px solid rgba(0,0,0,.2);
 	border-left:0;
 	border-right:0;
-	background:<ORANGE>;
+	background:<MAIN_TONE>;
 	text-align:center;
 	color:#000;
 	padding:0px 5px;
@@ -917,7 +917,7 @@ p.personlistcaption {
 }
 #listrow_char_mission a:nth-of-type(1):after {
 	font-size:12px;
-	content:"F\\00E4higkeiten"
+	content:"F\00E4higkeiten"
 }
 #listrow_char_mission a:nth-of-type(2):after {
 	font-size:12px;
@@ -1017,11 +1017,11 @@ p.personlistcaption {
 	font-style:normal
 }
 #listrow_money a[href="item.php?action=moneydrop1"]:after {
-	content:"\\f175";
+	content:"\f175";
 	color: red;
 }
 #listrow_money a[href="item.php?action=moneytransfer1"]:after {
-	content:"\\f0ec"
+	content:"\f0ec"
 }
 #listrow_money > b,#listrow_lifep > b,#listrow_int > b,#listrow_attackp > b,#listrow_attackw > b,#listrow_defensep > b,#listrow_defensew > b {
 	font-weight:normal
@@ -1148,24 +1148,24 @@ p.personlistcaption {
 	content: url("i/black/svg/circle-o.svg");
 }
 .listitemrow a[href^="item.php?action=activate"]:before {
-	content:"\\f10c"
+	content:"\f10c"
 	/*content: url("i/black/svg/circle-o.svg");*/
 }
 .listitemrow a[href^="item.php?action=activate"]:hover:before {
-	content:"\\f10c"
+	content:"\f10c"
 	/*content: url("i/black/svg/circle.svg");*/
 }
 .listitemrow a[href^="item.php?action=watch"]:before {
-	content:"\\f06e";
+	content:"\f06e";
 	/*font-size:12px
 	content: url("i/black/svg/eye.svg");*/
 }
 .listitemrow a[href^="item.php?action=transfer1"]:before, .listitemrow a[href^="item.php?action=manytransfer1"]:before {
-	content:"\\f0ec"
+	content:"\f0ec"
 	/*content: url("i/black/svg/exchange.svg");*/
 }
 .listitemrow a[href^="item.php?action=manydrop"]:before {
-	content:"\\f175"
+	content:"\f175"
 	/*content: url("i/black/svg/angle-double-down.svg");*/
 }
 .listitemrow a[href^="item.php?action=activate"]:before,.listitemrow a[href^="item.php?action=watch"]:before,.listitemrow a[href^="item.php?action=transfer1"]:before,.listitemrow a[href^="item.php?action=manytransfer1"]:before,.listitemrow a[href^="item.php?action=manydrop"]:before {
@@ -1281,7 +1281,7 @@ b + br + .listitemrow[id^="itemarea"],b + br + #itemunusedzk {
 }
 .listitemrow[id^="itemarea"] a[href^="item.php?action=activate"]:before,#itemunusedzk a[href^="item.php?action=activate"]:before {
 	margin:0 2px;
-	content:"\\f10c"
+	content:"\f10c"
 }
 .listitemrow[id^="itemarea"] a[href^="item.php?action=activate"]:hover:before,#itemunusedzk a[href^="item.php?action=activate"]:hover:before {
 	color:#d30
@@ -1385,7 +1385,7 @@ table.areadescription tr:nth-of-type(2) .areadescription {
 	font-family:FontAwesome;
 	font-style:normal;
 	font-weight:normal;
-	content:"\\f071";
+	content:"\f071";
 	padding-left:4px;
 	padding-right:2px
 }
@@ -1438,7 +1438,7 @@ a[href="map.php?reload=1"] {
 	font-size:11px
 }
 a[href="map.php?reload=1"]:before {
-	content:"\\f021 ";
+	content:"\f021 ";
 	font-family:FontAwesome;
 	font-style:normal;
 	font-weight:normal;
@@ -1663,7 +1663,7 @@ table[id^="fastspell"]:not(#fastspell) img[src$="close.gif"],#close1 img[src$="c
 	/*font-weight:normal;
 	font-style:normal;
 	font-family:FontAwesome;
-	content: "\\f1f8";*/
+	content: "\f1f8";*/
 	background-repeat:no-repeat;
 	margin-top:2px;
 	padding-left:10px;
@@ -1677,7 +1677,7 @@ table[id^="fastspell"]:hover:not(#fastspell) img[src$="close.gif"] {
 	font-weight:normal;
 	font-style:normal;
 	font-family:FontAwesome;
-	content:"\\f00d";
+	content:"\f00d";
 	margin-right:4px;
 	width:16px;
 	text-align:center;
@@ -1688,7 +1688,7 @@ table[id^="fastspell"]:hover:not(#fastspell) img[src$="close.gif"] {
 	font-weight:normal;
 	font-style:normal;
 	font-family:FontAwesome;
-	content:"\\f00c";
+	content:"\f00c";
 	margin-right:4px;
 	width:16px;
 	text-align:center;
@@ -1703,7 +1703,7 @@ form[action="profil.php?action=changestyle2"] b:after {
 	color:#222;
 	font-weight:normal;
 	white-space:pre-wrap;
-	content:"Du willst deinen Style wirklich wieder ÃfÆ'Ã,Â?ndern? Du kannst natÃfÆ'Ã,Â?rlich jeder Zeit zurÃfÆ'Ã,Â?ckkehren.\\AIn jedem Fall wÃfÆ'Ã,Â?re es nett,wenn du Feedback im Forum abgibst:fw.jshack.org/flatlight (Weiterleitung)\\AScrolle nach unten,um deinen Style zu ÃfÆ'Ã,Â?ndern."
+	content:"Du willst deinen Style wirklich wieder ÃfÆ'Ã,Â?ndern? Du kannst natÃfÆ'Ã,Â?rlich jeder Zeit zurÃfÆ'Ã,Â?ckkehren.\AIn jedem Fall wÃfÆ'Ã,Â?re es nett,wenn du Feedback im Forum abgibst:fw.jshack.org/flatlight (Weiterleitung)\AScrolle nach unten,um deinen Style zu ÃfÆ'Ã,Â?ndern."
 }
 # Blutblob 51 - 162 A # Blutblob auf Position X:-799 Y:-282 erzeugt keine Kindblobs  #ItemFrameItem img[src*="/images/sponsor"][title^="(noch 1 T"],#ItemFrameItem img[src*="/images/sponsor"][title^="(noch 2 T"],#ItemFrameItem img[src*="/images/sponsor"][title^="(noch 3 T"] {
 	animation:blink 1s steps(5,start) infinite
@@ -2458,7 +2458,7 @@ a[href="premium.php"] + br + br + style + table tr img[src] {
 	color:#c0392b
 }
 #listrow_attackw:not([title]) a[href="item.php?action=aselect"]:after,#listrow_defensew:not([title]) a[href="item.php?action=dselect"]:after {
-	content:"\\2014";
+	content:"\2014";
 	font-weight:normal;
 	color:#222 !important
 }

@@ -20,11 +20,29 @@ class EpicSunfire {
 			if($request->hasQueryParameter("san"))
 				$css.= file_get_contents($filename);
 		}
+		// TODO: Change default to $classic
+		// TODO: custom handling
+		// TODO: modern_bwobei_style(TM)
 		
-		$css = str_replace("<ORANGE>", "red", $css);
+		$orange =	[
+						"<MAIN_TONE>" => "green"
+					];
+		
+		
+		$themes = [$orange];
+		
+		$theme = ($request->hasQueryParameter("theme")) ? ((in_array($request->getQueryParameter("theme"))) ? $request->getQueryParameter("theme") : $custom) : $orange;
+					
+		$css = $this->skin_it($css, $theme);
 		
 		$body = $response->getBody();
 		$response->setBody($body . $css);
+	}
+	
+	public function skin_it($css, $theme) {
+			foreach($theme as $param => $val)
+				$css = str_replace($param, $val, $css);
+			return $css;
 	}
 
 	public function image(Request $request, $name, $extension) {
