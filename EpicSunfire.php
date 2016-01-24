@@ -17,7 +17,7 @@ class EpicSunfire {
 		$css = file_get_contents(__DIR__ . '/style.css');
 
 		foreach(glob(__DIR__ . '/cmp/*.css') as $filename) {
-			if($request->hasQueryParamter("san"))
+			if($request->hasQueryParameter("san"))
 				$css.= file_get_contents($filename);
 		}
 
