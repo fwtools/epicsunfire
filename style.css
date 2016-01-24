@@ -1680,7 +1680,7 @@ table[id^="fastspell"]:not(#fastspell) a[href*="delete"]:before,#close1 a:before
 	font-weight:normal;
 	font-style:normal;
 	font-family:FontAwesome;
-	content: "\f1f8";
+	content: "\f014";
 }
 
 table[id^="fastspell"]:hover:not(#fastspell) img[src$="close.gif"] {
