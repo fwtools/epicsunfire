@@ -98,13 +98,13 @@ class EpicSunfire {
 						"<PHASE_CUR_TOP>" => "#ff7f04 100%",
 						"<BACKGROUND_LINK>" => "#CC3300",
 						"<SZ_INACTIVE_BG>" => "#000",
-						"<SZ_ACTIVE_BG>" => "#3498db",
-						"<PERSON_LIST_BG>" => "linear-gradient(to top, #purple 0%, white 100%)",
+						"<SZ_ACTIVE_BG>" => "white",
+						"<PERSON_LIST_BG>" => "linear-gradient(to top, lightblue 0%, white 100%)",
 						"<PERSON_LIST>" => "#000",
-						"<PLANT_LIST_BG>" => "linear-gradient(to top, golden 0%, white 100%)",
-						"<PLANT_LIST>" => "#000",
-						"<ITEM_LIST_BG>" => "linear-gradient(to top, lime 0%, white 100%)",
+						"<ITEM_LIST_BG>" => "linear-gradient(to top, gold 0%, white 100%)",
 						"<ITEM_LIST>" => "#000",
+						"<PLANT_LIST_BG>" => "linear-gradient(to top, green 0%, white 100%)",
+						"<PLANT_LIST>" => "#000",
 						];	
 						
 		$themes = ["miranda" => $miranda, "powerade" => $powerade, "lefizz" => $lefizz];
