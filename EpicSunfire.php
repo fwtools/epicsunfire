@@ -24,19 +24,21 @@ class EpicSunfire {
 		// TODO: custom handling
 		// TODO: modern_bwobei_style(TM)
 		
-		$orange =	[
+		$miranda =	[
 						"<MAIN_TONE>" => "orange",
-						"<CONTRAST_MAIN>" => "#2980b9"
+						"<CONTRAST_MAIN>" => "#2980b9",
+						"<MAIN_FONT>" => "#000",
 					];		
-		$blue =	[
-						"<MAIN_TONE>" => "#2980b9",
-						"<CONTRAST_MAIN>" => "orange"
+		$powerade =	[
+						"<MAIN_TONE>" => "#3498db",
+						"<CONTRAST_MAIN>" => "#2980b9",
+						"<MAIN_FONT>" => "#eee",
 					];
 		$classic =	[
 						"<MAIN_TONE>" => "red"
 					];		
 					
-		$themes = ["orange" => $orange, "blue" => $blue, "classic" => $classic];
+		$themes = ["miranda" => $miranda, "powerade" => $powerade, "classic" => $flatlight];
 		$theme = "classic";
 		foreach($themes as $name => $theme_data) {
 			if($request->hasQueryParameter($name))
