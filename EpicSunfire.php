@@ -16,7 +16,7 @@ class EpicSunfire {
 	public function main(Request $request, Response $response) {
 		$css = file_get_contents(__DIR__ . '/style.css');
 
-		foreach(glob(__DIR__ . '/modules/*.css') as $filename) {
+		foreach(glob(__DIR__ . '/cmp/*.css') as $filename) {
 			$css.= file_get_contents($filename);
 		}
 
