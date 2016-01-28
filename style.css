@@ -672,7 +672,7 @@ form[name="bank"] b[onmouseover^="tt('gepresste Zauberkugel'"] {
 	color:#CE5A21
 }
 .chattextinfo {
-	color:olive;
+	color:#A37300;
 	font-style:italic
 }
 .chattextinfo::before {
