@@ -1180,21 +1180,7 @@ a[href*="openinv"], a[href*="closeinv"] {
 	top:3px;
 	z-index:3
 }
-#listrow_int ~ .listitemrow a[href^="item.php?action=activate"] {
-	right:49px;
-}
-#listrow_int ~ .listitemrow a[href^="item.php?action=watch"] {
-	right:33px
-}
-#listrow_int ~ .listitemrow a[href^="item.php?action=transfer1"] {
-	right:17px
-}
-#listrow_int ~ .listitemrow a[href^="item.php?action=manytransfer1"] {
-	right:17px
-}
-#listrow_int ~ .listitemrow a[href^="item.php?action=manydrop"] {
-	right:1px
-}
+
 #listrow_int ~ .listitemrow a[href^="item.php?action=activate"]:before,#listrow_int ~ .listitemrow a[href^="item.php?action=watch"]:before,#listrow_int ~ .listitemrow a[href^="item.php?action=transfer1"]:before,#listrow_int ~ .listitemrow a[href^="item.php?action=manytransfer1"]:before,#listrow_int ~ .listitemrow a[href^="item.php?action=manydrop"]:before {
 	margin:0
 }
