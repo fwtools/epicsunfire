@@ -6,6 +6,9 @@ html,body {
 	margin:0;
 	padding:0;
 }
+* {
+	box-sizing:border-box
+}
 html {
 	background:#E9E5E2
 }
@@ -1090,6 +1093,15 @@ p.personlistcaption {
 .listitemrow:nth-child(2n+1) {
 	background:#fafafa;
 }
+.listitemrow {
+	position:relative;
+	padding:2px 3px;
+	padding-left:9px;
+	padding-right:70px;
+	width:calc(100% + 12px);
+	margin:0 -6px;
+	min-height:19px
+}
 /*.listitemrow:nth-of-type(2n) {
 	background:#eee
 }*/
@@ -1103,6 +1115,9 @@ a[href*="openinv"], a[href*="closeinv"] {
 	height:0;
 	margin:0;
 	padding:0
+}
+.listitemrow * {
+	z-index:2
 }
 #listrow_int ~ .listitemrow br {
 	display:none
@@ -1151,12 +1166,77 @@ a[href*="openinv"], a[href*="closeinv"] {
 	/*font-size:0;*/
 	/*content: url("i/black/svg/circle-o.svg");*/
 }
+.listitemrow a[href^="item.php?action=activate"]:before {
+	content:"\f10c"
+	/*content: url("i/black/svg/circle-o.svg");*/
+}
+.listitemrow a[href^="item.php?action=activate"]:hover:before {
+	content:"\f10c"
+	/*content: url("i/black/svg/circle.svg");*/
+}
+.listitemrow a[href^="item.php?action=watch"]:before {
+	content:"\f06e";
+	/*font-size:12px
+	content: url("i/black/svg/eye.svg");*/
+}
+.listitemrow a[href^="item.php?action=transfer1"]:before, .listitemrow a[href^="item.php?action=manytransfer1"]:before {
+	content:"\f0ec"
+	/*content: url("i/black/svg/exchange.svg");*/
+}
+.listitemrow a[href^="item.php?action=manydrop"]:before {
+	content:"\f175"
+	/*content: url("i/black/svg/angle-double-down.svg");*/
+}
+.listitemrow a[href^="item.php?action=activate"]:before,.listitemrow a[href^="item.php?action=watch"]:before,.listitemrow a[href^="item.php?action=transfer1"]:before,.listitemrow a[href^="item.php?action=manytransfer1"]:before,.listitemrow a[href^="item.php?action=manydrop"]:before {
+	margin:0 3px;
+	display:inline-block;
+	color:#666;
+	font-size:14px;
+	font-family:FontAwesome;
+	font-style:normal;
+	font-weight:normal;
+	line-height:1
+}
+.listitemrow a[href^="item.php?action=watch"]:before {
+	font-size:13px;
+	transform:translateY(-1px)
+}
+.listitemrow a[href^="item.php?action=activate"]:hover,.listitemrow a[href^="item.php?action=watch"]:hover,.listitemrow a[href^="item.php?action=transfer1"]:hover,.listitemrow a[href^="item.php?action=manytransfer1"]:hover,.listitemrow a[href^="item.php?action=manydrop"]:hover {
+	text-decoration:none
+}
+#listrow_int ~ .listitemrow,#listrow_int ~ .listitemrow br ~ a,#listrow_int ~ .listitemrow br ~ a:hover {
+	display:block;
+	font-size:0;
+	color:transparent
+}
 #listrow_int ~ .listitemrow b {
 	word-break:break-word
 }
 #listrow_int ~ .listitemrow b {
 	font-size:12px;
 	color:#222
+}
+#listrow_int ~ .listitemrow a[href^="item.php?action=activate"],#listrow_int ~ .listitemrow a[href^="item.php?action=watch"],#listrow_int ~ .listitemrow a[href^="item.php?action=transfer1"],#listrow_int ~ .listitemrow a[href^="item.php?action=manytransfer1"],#listrow_int ~ .listitemrow a[href^="item.php?action=manydrop"] {
+	width:16px;
+	height:16px;
+	position:absolute;
+	top:3px;
+	z-index:3
+}
+#listrow_int ~ .listitemrow a[href^="item.php?action=activate"] {
+	right:49px;
+}
+#listrow_int ~ .listitemrow a[href^="item.php?action=watch"] {
+	right:33px
+}
+#listrow_int ~ .listitemrow a[href^="item.php?action=transfer1"] {
+	right:17px
+}
+#listrow_int ~ .listitemrow a[href^="item.php?action=manytransfer1"] {
+	right:17px
+}
+#listrow_int ~ .listitemrow a[href^="item.php?action=manydrop"] {
+	right:1px
 }
 #listrow_int ~ .listitemrow a[href^="item.php?action=activate"]:before,#listrow_int ~ .listitemrow a[href^="item.php?action=watch"]:before,#listrow_int ~ .listitemrow a[href^="item.php?action=transfer1"]:before,#listrow_int ~ .listitemrow a[href^="item.php?action=manytransfer1"]:before,#listrow_int ~ .listitemrow a[href^="item.php?action=manydrop"]:before {
 	margin:0
