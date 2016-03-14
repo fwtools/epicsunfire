@@ -1093,15 +1093,6 @@ p.personlistcaption {
 .listitemrow:nth-child(2n+1) {
 	background:#fafafa;
 }
-.listitemrow {
-	position:relative;
-	padding:2px 3px;
-	padding-left:9px;
-	padding-right:70px;
-	width:calc(100% + 12px);
-	margin:0 -6px;
-	min-height:19px
-}
 /*.listitemrow:nth-of-type(2n) {
 	background:#eee
 }*/
