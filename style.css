@@ -1173,14 +1173,6 @@ a[href*="openinv"], a[href*="closeinv"] {
 	font-size:12px;
 	color:#222
 }
-#listrow_int ~ .listitemrow a[href^="item.php?action=activate"],#listrow_int ~ .listitemrow a[href^="item.php?action=watch"],#listrow_int ~ .listitemrow a[href^="item.php?action=transfer1"],#listrow_int ~ .listitemrow a[href^="item.php?action=manytransfer1"],#listrow_int ~ .listitemrow a[href^="item.php?action=manydrop"] {
-	width:16px;
-	height:16px;
-	position:absolute;
-	top:3px;
-	z-index:3
-}
-
 #listrow_int ~ .listitemrow a[href^="item.php?action=activate"]:before,#listrow_int ~ .listitemrow a[href^="item.php?action=watch"]:before,#listrow_int ~ .listitemrow a[href^="item.php?action=transfer1"]:before,#listrow_int ~ .listitemrow a[href^="item.php?action=manytransfer1"]:before,#listrow_int ~ .listitemrow a[href^="item.php?action=manydrop"]:before {
 	margin:0
 }
