@@ -6,9 +6,6 @@ html,body {
 	margin:0;
 	padding:0;
 }
-* {
-	box-sizing:border-box
-}
 html {
 	background:#E9E5E2
 }
@@ -1106,9 +1103,6 @@ a[href*="openinv"], a[href*="closeinv"] {
 	height:0;
 	margin:0;
 	padding:0
-}
-.listitemrow * {
-	z-index:2
 }
 #listrow_int ~ .listitemrow br {
 	display:none
