@@ -1167,24 +1167,29 @@ a[href*="openinv"], a[href*="closeinv"] {
 	/*content: url("i/black/svg/circle-o.svg");*/
 }
 .listitemrow a[href^="item.php?action=activate"]:before {
-	content:"\f10c"
+	content:"(A)";
+	/* content:"\f10c"; */
 	/*content: url("i/black/svg/circle-o.svg");*/
 }
 .listitemrow a[href^="item.php?action=activate"]:hover:before {
-	content:"\f10c"
+	content:"(A)";
+	color: red !important
 	/*content: url("i/black/svg/circle.svg");*/
 }
 .listitemrow a[href^="item.php?action=watch"]:before {
-	content:"\f06e";
+	/* content:"\f06e"; */
+	content:"(S)";
 	/*font-size:12px
 	content: url("i/black/svg/eye.svg");*/
 }
 .listitemrow a[href^="item.php?action=transfer1"]:before, .listitemrow a[href^="item.php?action=manytransfer1"]:before {
-	content:"\f0ec"
+	/* content:"\f0ec" */
+	content:"(T)"
 	/*content: url("i/black/svg/exchange.svg");*/
 }
 .listitemrow a[href^="item.php?action=manydrop"]:before {
-	content:"\f175"
+	/* content:"\f175" */
+	content:"(D)"
 	/*content: url("i/black/svg/angle-double-down.svg");*/
 }
 .listitemrow a[href^="item.php?action=activate"]:before,.listitemrow a[href^="item.php?action=watch"]:before,.listitemrow a[href^="item.php?action=transfer1"]:before,.listitemrow a[href^="item.php?action=manytransfer1"]:before,.listitemrow a[href^="item.php?action=manydrop"]:before {
