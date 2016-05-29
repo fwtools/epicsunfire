@@ -1229,10 +1229,10 @@ a[href*="openinv"], a[href*="closeinv"] {
 	z-index:3
 }
 #listrow_int ~ .listitemrow a[href^="item.php?action=activate"] {
-	right:54px;
+	right:64px;
 }
 #listrow_int ~ .listitemrow a[href^="item.php?action=watch"] {
-	right:43px
+	right:42px
 }
 #listrow_int ~ .listitemrow a[href^="item.php?action=transfer1"] {
 	right:24px
